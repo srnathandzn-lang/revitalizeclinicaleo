@@ -1,12 +1,12 @@
 import React from 'react';
 
 const GALLERY_ITEMS = [
-    { title: "Recepção Acolhedora", img: "https://picsum.photos/600/400?random=20" },
-    { title: "Studio de Pilates", img: "https://picsum.photos/600/400?random=21" },
-    { title: "Sala de Fisioterapia", img: "https://picsum.photos/600/400?random=22" },
-    { title: "Sala de Estética", img: "https://picsum.photos/600/400?random=23" },
-    { title: "Equipamentos Modernos", img: "https://picsum.photos/600/400?random=24" },
-    { title: "Área de Avaliação", img: "https://picsum.photos/600/400?random=25" },
+    { title: "Recepção Acolhedora", img: "https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&q=80&w=600" },
+    { title: "Studio de Pilates", img: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&q=80&w=600" },
+    { title: "Sala de Fisioterapia", img: "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?auto=format&fit=crop&q=80&w=600" },
+    { title: "Sala de Estética", img: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=600" },
+    { title: "Equipamentos Modernos", img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=600" },
+    { title: "Área de Avaliação", img: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=600" },
 ];
 
 const Gallery: React.FC = () => {

@@ -67,7 +67,7 @@ const Services: React.FC = () => {
 
               <div className="w-full lg:w-5/12">
                 <img 
-                  src={`https://picsum.photos/600/800?random=${100 + index}`} 
+                  src={service.image} 
                   alt={service.title} 
                   className="w-full h-64 lg:h-full object-cover rounded-2xl shadow-lg"
                 />

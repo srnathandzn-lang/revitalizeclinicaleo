@@ -37,8 +37,8 @@ const About: React.FC = () => {
              <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary-100 rounded-full opacity-50 z-0"></div>
              <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary-50 rounded-full opacity-50 z-0"></div>
              <img 
-                src="https://picsum.photos/800/600?random=2" 
-                alt="Equipe Clínica Revitalize" 
+                src="https://images.unsplash.com/photo-1631217868269-dfc1c5c0b338?auto=format&fit=crop&q=80&w=800" 
+                alt="Atendimento Clínica Revitalize" 
                 className="relative z-10 rounded-2xl shadow-2xl object-cover h-96 w-full"
              />
           </motion.div>

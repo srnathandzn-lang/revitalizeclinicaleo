@@ -8,6 +8,7 @@ export interface ServiceItem {
   fullDescription: string[];
   benefits: string[];
   indications: string[];
+  image: string;
 }
 
 export interface Testimonial {

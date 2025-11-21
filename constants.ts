@@ -33,7 +33,8 @@ export const SERVICES: ServiceItem[] = [
       "Focamos não apenas em tratar a lesão, mas em identificar a causa raiz do problema para prevenir recidivas."
     ],
     benefits: ["Alívio imediato da dor", "Recuperação da mobilidade", "Fortalecimento muscular direcionado"],
-    indications: ["Pós-operatório ortopédico", "Lesões esportivas", "Dores crônicas na coluna", "Tendinites e Bursites"]
+    indications: ["Pós-operatório ortopédico", "Lesões esportivas", "Dores crônicas na coluna", "Tendinites e Bursites"],
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "pilates",
@@ -45,7 +46,8 @@ export const SERVICES: ServiceItem[] = [
       "Nossa estrutura completa de aparelhos permite desde a reabilitação suave até o condicionamento físico avançado."
     ],
     benefits: ["Melhora da postura", "Aumento da flexibilidade", "Tonificação muscular", "Consciência corporal"],
-    indications: ["Dores lombares", "Hérnia de disco", "Gestantes", "Idosos", "Atletas"]
+    indications: ["Dores lombares", "Hérnia de disco", "Gestantes", "Idosos", "Atletas"],
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "estetica",
@@ -57,7 +59,8 @@ export const SERVICES: ServiceItem[] = [
       "Cada tratamento começa com uma avaliação minuciosa para entender seus objetivos."
     ],
     benefits: ["Rejuvenescimento facial", "Redução de medidas", "Tratamento de celulite e estrias", "Bem-estar e autoestima"],
-    indications: ["Limpeza de pele profunda", "Drenagem linfática", "Massagem modeladora", "Peelings"]
+    indications: ["Limpeza de pele profunda", "Drenagem linfática", "Massagem modeladora", "Peelings"],
+    image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "bem-estar",
@@ -69,7 +72,8 @@ export const SERVICES: ServiceItem[] = [
       "Ideal para quem busca envelhecimento saudável e vida livre de dores."
     ],
     benefits: ["Redução do estresse", "Melhora do sono", "Equilíbrio corpo e mente", "Manutenção da saúde física"],
-    indications: ["Prevenção de lesões", "Manutenção pós-alta", "Relaxamento", "Saúde do idoso"]
+    indications: ["Prevenção de lesões", "Manutenção pós-alta", "Relaxamento", "Saúde do idoso"],
+    image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&q=80&w=800"
   }
 ];
 
@@ -109,7 +113,7 @@ export const BLOG_TOPICS = [
 ];
 
 export const TEAM: TeamMember[] = [
-  { name: "Dra. Camila Rocha", role: "Fisioterapeuta Responsável", description: "Especialista em Traumato-ortopedia e Pilates Clínico com 10 anos de experiência.", image: "https://picsum.photos/300/300?random=10" },
-  { name: "Dr. André Silva", role: "Fisioterapeuta e Osteopata", description: "Focado em terapia manual e reabilitação esportiva de alto rendimento.", image: "https://picsum.photos/300/300?random=11" },
-  { name: "Dra. Beatriz Lima", role: "Biomédica Esteta", description: "Apaixonada por harmonização e cuidados com a pele, trazendo o que há de mais moderno.", image: "https://picsum.photos/300/300?random=12" }
+  { name: "Dra. Camila Rocha", role: "Fisioterapeuta Responsável", description: "Especialista em Traumato-ortopedia e Pilates Clínico com 10 anos de experiência.", image: "https://images.unsplash.com/photo-1559839734-2b71ea860c00?auto=format&fit=crop&q=80&w=300" },
+  { name: "Dr. André Silva", role: "Fisioterapeuta e Osteopata", description: "Focado em terapia manual e reabilitação esportiva de alto rendimento.", image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=300" },
+  { name: "Dra. Beatriz Lima", role: "Biomédica Esteta", description: "Apaixonada por harmonização e cuidados com a pele, trazendo o que há de mais moderno.", image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300" }
 ];
